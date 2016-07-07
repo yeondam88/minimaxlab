@@ -1,7 +1,10 @@
 /************************************************************
 HEADER
 /***********************************************************/
-
+/*-----Wrapper-----*/
+.wrapper {
+	width: 100%;
+}
 
 /*----Logo----*/
 .logo-container {
@@ -23,6 +26,12 @@ HEADER
 	line-height: 150px;
 	margin-top: 50px;
 	margin-bottom: 10px;
+	@media (max-width: 420px) {
+		line-height: 0px;
+		letter-spacing: 1px;
+		margin: 0;
+		font-size: 14px;
+	}
 }
 .minimax-des-content {
 	font-weight: 200;
@@ -31,4 +40,8 @@ HEADER
 	width: 30%;
 	margin: 0 auto 50px auto;
 	color: $defaultColor;
+	@media (max-width: 420px) {
+		width: 80%;
+		font-size: 14px;
+	}
 }

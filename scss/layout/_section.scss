@@ -2,7 +2,10 @@
 SECTION
 /***********************************************************/
 /*----Blockey----*/
-
+.container {
+	width: 100%;
+	padding: 0px;
+}
 .blockey-container {
 	background: url('../images/blockey-01.png') no-repeat;
 	background-size: contain;
