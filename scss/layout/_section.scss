@@ -7,7 +7,7 @@ SECTION
 	background: url('../images/blockey-01.png') no-repeat;
 	background-size: contain;
 	background-position: center;
-	height: 638px;
+	height: 600px;
 	.inner-des {
 		float: left;
 		margin-left: 150px;
@@ -30,7 +30,7 @@ SECTION
 
 .prod-des-container {
 	width: 100%;
-	height: 427px;
+	height: auto;
 	margin-top: 50px;
 	div h1 {
 		text-align: center;
@@ -54,10 +54,10 @@ SECTION
 	margin-top: 50px;
 
 	.acce-banner {
-		background-image: url('../images/blockey-03.png');
-		background-repeat: no-repeat;
-		background-position: center;
-		height: 800px;
+		// background-image: url('../images/blockey-03.png');
+		// background-repeat: no-repeat;
+		// background-position: center;
+		height: auto;
 		margin-bottom: 50px;
 		h1 {
 		text-align: center;
@@ -86,9 +86,10 @@ SECTION
 }
 
 .spec-banner {
-	background: url('../images/blockey-spec.png') 50% 50% no-repeat;
+	// background: url('../images/blockey-spec.png') 50% 50% no-repeat;
+
 	width: 100%;
-	height: 1200px;
+	height: auto;
 	h1 {
 		text-align: center;
 		font-weight: 200;
