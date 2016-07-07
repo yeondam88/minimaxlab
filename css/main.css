@@ -21,7 +21,7 @@ body {
   font-family: "Roboto", sans-serif; }
 
 .wrapper {
-  max-width: 1282px;
+  max-width: 100%;
   margin: 0 auto; }
 
 /************************************************************
@@ -73,15 +73,12 @@ HEADER
 SECTION
 /***********************************************************/
 /*----Blockey----*/
-.container {
-  width: 100%;
-  padding: 0px; }
-
 .blockey-container {
   background: url("../images/blockey-01.png") no-repeat;
   background-size: contain;
   background-position: center;
-  height: 600px; }
+  height: 600px;
+  margin-bottom: 50px; }
   .blockey-container .inner-des {
     float: left;
     margin-left: 150px; }
@@ -142,7 +139,8 @@ SECTION
 
 .spec-banner {
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 50px; }
   .spec-banner h1 {
     text-align: center;
     font-weight: 200;

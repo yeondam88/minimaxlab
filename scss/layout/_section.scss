@@ -2,15 +2,13 @@
 SECTION
 /***********************************************************/
 /*----Blockey----*/
-.container {
-	width: 100%;
-	padding: 0px;
-}
+
 .blockey-container {
 	background: url('../images/blockey-01.png') no-repeat;
 	background-size: contain;
 	background-position: center;
 	height: 600px;
+	margin-bottom: 50px;
 	.inner-des {
 		float: left;
 		margin-left: 150px;
@@ -93,6 +91,7 @@ SECTION
 
 	width: 100%;
 	height: auto;
+	margin-bottom: 50px;
 	h1 {
 		text-align: center;
 		font-weight: 200;
