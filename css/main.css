@@ -1,0 +1,161 @@
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+  zoom: 1; }
+
+/************************************************************
+Font
+/***********************************************************/
+/************************************************************
+BASE
+/***********************************************************/
+body {
+  font-family: "Roboto", sans-serif; }
+
+.wrapper {
+  max-width: 1282px;
+  margin: 0 auto; }
+
+/************************************************************
+HEADER
+/***********************************************************/
+/*----Logo----*/
+.logo-container {
+  text-align: center;
+  width: 100%; }
+
+/*----banner----*/
+.hero-banner {
+  width: 100%; }
+
+/*----Header content----*/
+.minimax-des-header {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 5px;
+  line-height: 150px;
+  margin-top: 50px;
+  margin-bottom: 10px; }
+
+.minimax-des-content {
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.25em;
+  width: 30%;
+  margin: 0 auto 50px auto;
+  color: darkgrey; }
+
+/************************************************************
+SECTION
+/***********************************************************/
+/*----Blockey----*/
+.blockey-container {
+  background: url("../images/blockey-01.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 638px; }
+  .blockey-container .inner-des {
+    float: left;
+    margin-left: 150px; }
+  .blockey-container .minimax-des-prod {
+    text-align: left;
+    margin-top: 300px;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .blockey-container .minimax-des-prod-detail {
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.25em;
+    color: darkgrey; }
+
+.prod-des-container {
+  width: 100%;
+  height: 427px;
+  margin-top: 50px; }
+  .prod-des-container div h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .prod-des-container div p {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5em; }
+
+.accessories-bg {
+  background: #fafafa;
+  margin-bottom: 160px; }
+
+.accessories-des-container {
+  width: 100%;
+  margin-top: 50px; }
+  .accessories-des-container .acce-banner {
+    background-image: url("../images/blockey-03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    margin-bottom: 50px; }
+    .accessories-des-container .acce-banner h1 {
+      text-align: center;
+      font-weight: 200;
+      font-size: 2em;
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+    .accessories-des-container .acce-banner p {
+      text-align: center;
+      font-weight: 100;
+      font-size: 1.5em; }
+
+.block-banner-container .block-banner h2 {
+  text-align: center;
+  margin-top: 140px; }
+.block-banner-container .block-banner img {
+  width: 390px; }
+
+.spec-banner {
+  background: url("../images/blockey-spec.png") 50% 50% no-repeat;
+  width: 100%;
+  height: 1200px; }
+  .spec-banner h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: -70px; }
+
+.footer-banner {
+  text-align: center;
+  margin-bottom: 150px; }
+  .footer-banner .btn {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 30px 120px;
+    color: #fff;
+    margin: 0 auto;
+    background-color: orange;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 1s ease; }
+    .footer-banner .btn:hover, .footer-banner .btn:active {
+      background-color: darkorange;
+      opacity: 0.5; }
+
+/*# sourceMappingURL=main.css.map */

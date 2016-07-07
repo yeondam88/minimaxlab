@@ -1,0 +1,103 @@
+/************************************************************
+SECTION
+/***********************************************************/
+/*----Blockey----*/
+
+.blockey-container {
+	background: url('../images/blockey-01.png') no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 638px;
+	.inner-des {
+		float: left;
+		margin-left: 150px;
+	}
+	.minimax-des-prod {
+		text-align: left;
+		margin-top: 300px;
+		font-weight: $boldFont;
+		font-size: $h1FontSize;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+	.minimax-des-prod-detail {
+		text-align: left;
+		font-weight: $thinFont;
+		font-size: 1.25em;
+		color: $defaultColor;
+	}
+}
+
+.prod-des-container {
+	width: 100%;
+	height: 427px;
+	margin-top: 50px;
+	div h1 {
+		text-align: center;
+		font-weight: 200;
+		font-size: $h1FontSize;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+	div p {
+		text-align: center;
+		font-weight: 100;
+		font-size: $pFontSize;
+	}
+}
+.accessories-bg {
+	background: #fafafa;
+	margin-bottom: 160px;
+}
+.accessories-des-container {
+	width: 100%;
+	margin-top: 50px;
+
+	.acce-banner {
+		background-image: url('../images/blockey-03.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 800px;
+		margin-bottom: 50px;
+		h1 {
+		text-align: center;
+		font-weight: 200;
+		font-size: $h1FontSize;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		}
+		p {
+			text-align: center;
+			font-weight: 100;
+			font-size: $pFontSize;
+		}
+	}
+}
+.block-banner-container {
+	.block-banner {
+		h2 {
+			text-align: center;
+			margin-top: 140px;
+		}
+		img {
+			width: 390px;
+		}
+	}	
+}
+
+.spec-banner {
+	background: url('../images/blockey-spec.png') 50% 50% no-repeat;
+	width: 100%;
+	height: 1200px;
+	h1 {
+		text-align: center;
+		font-weight: 200;
+		font-size: $h1FontSize;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin-top: -70px;
+	}
+}
+
+
+
